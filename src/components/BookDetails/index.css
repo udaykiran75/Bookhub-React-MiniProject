@@ -1,0 +1,116 @@
+.bookDetails-main-container {
+  background-color: #eaf3f8;
+  min-height: 100vh;
+}
+.loading-spinner-container {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    width: 100%;
+  }
+}
+.detailsCard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  @media screen and (min-width: 768px) {
+    background-color: #ffffff;
+    margin: 70px;
+    margin-left: 140px;
+    margin-right: 140px;
+    border-radius: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+.coverPic-image {
+  height: 274px;
+  width: 220px;
+  border-radius: 5px;
+}
+.bookDescription-container {
+  margin-top: 15px;
+  @media screen and (min-width: 768px) {
+    margin-left: 40px;
+  }
+}
+.title-heading {
+  font-size: 20px;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    text-align: start;
+  }
+}
+.authorName-book {
+  text-align: center;
+  margin: 5px;
+  @media screen and (min-width: 768px) {
+    text-align: start;
+    margin-left: 0px;
+  }
+}
+.ratings-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    justify-content: flex-start;
+  }
+}
+.icon-star {
+  color: #fbbf24;
+  margin: 0px;
+  margin-left: 15px;
+}
+.heading-rating {
+  margin: 0px;
+}
+.book-rating {
+  margin: 0px;
+  margin-left: 5px;
+}
+.readStatus-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    justify-content: flex-start;
+  }
+}
+.headingStatus {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.read-status {
+  margin-top: 5px;
+  color: rgba(2, 132, 199, 1);
+}
+.horizantal-line {
+  border: 1px solid black;
+  width: 100%;
+}
+.about-author {
+  align-self: flex-start;
+  font-size: 20px;
+}
+.about-book {
+  align-self: flex-start;
+  font-size: 20px;
+}
+.failureView-container {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.details-container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,131 @@
+.homepage-container {
+  background-color: #eaf3f8;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+.home-content-div {
+  padding: 20px;
+  @media screen and (min-width: 768px) {
+    padding: 40px;
+  }
+}
+.find-button {
+  background-color: rgba(2, 132, 199, 1);
+  color: #ffffff;
+  border: none;
+  outline: none;
+  height: 35px;
+  width: 120px;
+  border-radius: 4px;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+.desktop-button {
+  display: none;
+  background-color: rgba(2, 132, 199, 1);
+  color: #ffffff;
+  border: none;
+  outline: none;
+  height: 35px;
+  width: 120px;
+  border-radius: 4px;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+}
+.top-ratedBooks-container {
+  padding: 20px;
+  background-color: #ffffff;
+  padding-bottom: 0px;
+  @media screen and (min-width: 768px) {
+    padding: 30px;
+    min-height: 340px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 4px;
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .heading-and-button-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.slider-container {
+  padding: 0px;
+  margin: 15px;
+  margin-bottom: 120px;
+  list-style-type: none;
+  @media screen and (min-width: 768px) {
+    padding-bottom: 20px;
+  }
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.slick-item {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+.cover-pic {
+  height: 160px;
+  width: 150px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  @media screen and (min-width: 768px) {
+    height: 250px;
+    width: 230px;
+  }
+}
+.failure-image {
+  width: 320px;
+}
+.title {
+  font-size: 16px;
+  margin: 0px;
+  text-align: center;
+}
+.failureView-container {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-description {
+  margin-top: 15px;
+  font-family: Roboto;
+}
+.tryAgain-button {
+  background-color: rgba(2, 132, 199, 1);
+  color: #ffffff;
+  height: 32px;
+  width: 100px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+.loader-container {
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .desktop-button {
+    margin-right: 45px;
+  }
+  .desktop-head {
+    margin-left: 42px;
+  }
+}

@@ -1,0 +1,151 @@
+.bookshelves-container {
+  background-color: #eaf3f8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bookshelves-main-container {
+  margin: 15px;
+  @media screen and (min-width: 768px) {
+    margin: 0px;
+  }
+}
+.search-container {
+  height: 30px;
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #4a4a4a;
+  border-radius: 2px;
+  @media screen and (min-width: 768px) {
+    width: 30%;
+  }
+}
+.search-input {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-left: 10px;
+}
+.search-button {
+  height: 100%;
+  width: 15%;
+  outline: none;
+  border-left: 1px solid #181818;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  cursor: pointer;
+  background: #edeff1;
+  border-radius: 0px 5px 5px 0px;
+}
+.heading-bookshelves {
+  font-size: 20px;
+  margin-top: 13px;
+}
+.bookshelves-options {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.loading-spin-container {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    width: 100%;
+  }
+}
+.failureView-container {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media screen and (min-width: 768px) {
+    width: 100%;
+  }
+}
+.failure-image-bf {
+  width: 320px;
+}
+.failure-description {
+  margin-top: 15px;
+  font-family: Roboto;
+}
+.tryAgain-button {
+  background-color: rgba(2, 132, 199, 1);
+  color: #ffffff;
+  height: 32px;
+  width: 100px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+.books-list-container {
+  padding: 15px;
+}
+.noBooksView-container {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    width: 100%;
+  }
+}
+.no-books-img {
+  width: 300px;
+}
+.noBooksView-description {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .desktop-bookShelf-container {
+    display: flex;
+    padding: 30px;
+    min-height: 85vh;
+  }
+  .bookshelves-options {
+    flex-direction: column;
+  }
+  .bookshelves-left-navbar {
+    background-color: #ffffff;
+    height: 100%;
+    width: 20vw;
+    padding: 25px;
+  }
+  .books-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    padding-top: 22px;
+  }
+  .mobile-search-container {
+    display: none;
+  }
+  .desktop-bookShelf-div {
+    min-width: 75vw;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+  .desktop-bookshelf-name {
+    font-size: 22px;
+  }
+}
+.desktop-head-search-container {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

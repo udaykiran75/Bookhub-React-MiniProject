@@ -1,0 +1,64 @@
+.bookList-item {
+  display: flex;
+  margin-bottom: 17px;
+  @media screen and (min-width: 768px) {
+    width: 470px;
+  }
+}
+#link {
+  text-decoration: none;
+}
+
+.coverPic {
+  height: 160px;
+  width: 133px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+.bookDetails-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.book-title {
+  font-size: 17px;
+  color: black;
+}
+.book-authorName {
+  margin: 0px;
+  color: black;
+}
+.rating-container {
+  display: flex;
+  margin: 0px;
+}
+.ratingHeading {
+  margin-top: 4px;
+  margin-right: 15px;
+  margin-left: 0px;
+  color: black;
+  margin-bottom: 0px;
+}
+.status-container {
+  display: flex;
+  margin: 0px;
+}
+.star-icon {
+  color: #fbbf24;
+  margin-top: 7px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+}
+.rating {
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.statusHeading {
+  color: black;
+  margin-right: 5px;
+  margin-bottom: 0px;
+}
+.readStatus {
+  margin-bottom: 0px;
+}

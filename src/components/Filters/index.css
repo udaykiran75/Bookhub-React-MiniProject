@@ -1,0 +1,28 @@
+.list-item-btn {
+  color: rgba(2, 132, 199, 1);
+  background-color: transparent;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid rgba(2, 132, 199, 1);
+}
+.tab-items-list {
+  margin-right: 15px;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+.active-btn {
+  color: #ffffff;
+  background-color: rgba(2, 132, 199, 1);
+}
+@media screen and (min-width: 768px) {
+  .list-item-btn {
+    color: black;
+    border: none;
+    padding: 0px;
+  }
+  .active-btn {
+    color: rgba(2, 132, 199, 1);
+    background-color: transparent;
+  }
+}

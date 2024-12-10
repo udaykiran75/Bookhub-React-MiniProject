@@ -1,0 +1,27 @@
+.notfound-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.notFound-image {
+  width: 300px;
+}
+.notFound-heading {
+  font-size: 20px;
+}
+.notFound-description {
+  font-size: 17px;
+  text-align: center;
+}
+.notfound-tryAgain-button {
+  background-color: rgba(2, 132, 199, 1);
+  border: none;
+  outline: none;
+  color: #ffffff;
+  height: 33px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
