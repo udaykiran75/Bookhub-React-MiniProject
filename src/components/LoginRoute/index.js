@@ -1,7 +1,8 @@
 import {Component} from 'react'
+import {Redirect} from 'react-router-dom'
 import Cookies from 'js-cookie'
+
 import './index.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 class LoginRoute extends Component {
   state = {username: '', password: '', errorMsg: ''}
@@ -40,6 +41,12 @@ class LoginRoute extends Component {
 
   render() {
     const {username, password, errorMsg} = this.state
+    const jwtToken = Cookies.get('jwt_token')
+
+    if (jwtToken !== undefined) {
+      return <Redirect to="/" />
+    }
+
     return (
       <div className="login-page-container">
         <img

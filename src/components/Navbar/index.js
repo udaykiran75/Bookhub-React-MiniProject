@@ -1,6 +1,6 @@
 import {useState} from 'react'
-import {FaBars} from 'react-icons/fa'
-import {IoMdCloseCircle} from 'react-icons/io'
+import {MdMenu} from 'react-icons/md'
+import {AiOutlineClose} from 'react-icons/ai'
 import {Link, withRouter} from 'react-router-dom'
 import Cookies from 'js-cookie'
 import './index.css'
@@ -62,7 +62,7 @@ function Navbar(props) {
           </li>
         </ul>
         <button className="icon" onClick={toggleMenu} type="button">
-          <FaBars />
+          <MdMenu />
         </button>
       </nav>
       {isOpen && (
@@ -95,7 +95,7 @@ function Navbar(props) {
             type="button"
             onClick={closeToggleMenu}
           >
-            <IoMdCloseCircle />
+            <AiOutlineClose />
           </button>
         </ul>
       )}

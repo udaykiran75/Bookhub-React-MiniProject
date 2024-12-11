@@ -33,6 +33,7 @@
   background-color: transparent;
   border: none;
   outline: none;
+  font-size: 17px;
 }
 .mobile-logout-btn {
   background-color: rgba(2, 132, 199, 1);
@@ -78,6 +79,7 @@
   border: none;
   outline: none;
   color: grey;
+  font-size: 17px;
 }
 .addColor {
   color: rgba(2, 132, 199, 1);

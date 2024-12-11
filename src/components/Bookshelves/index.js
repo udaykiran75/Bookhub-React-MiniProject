@@ -1,7 +1,7 @@
 import {Component} from 'react'
 import Loader from 'react-loader-spinner'
-import {BsSearch} from 'react-icons/bs'
 import Cookies from 'js-cookie'
+import {BsSearch} from 'react-icons/bs'
 
 import Navbar from '../Navbar'
 import Filters from '../Filters'
@@ -138,17 +138,17 @@ class Bookshelves extends Component {
       <div className="search-container">
         <input
           value={searchInput}
-          type="search"
           className="search-input"
           placeholder="Search"
           onChange={this.onChangeSearchInput}
           onKeyDown={this.onEnterInputKey}
+          type="search"
         />
         <button
           className="search-button"
           type="button"
-          testid="searchButton"
           onClick={this.onClickSearchBtn}
+          testid="searchButton"
         >
           <BsSearch className="search-icon" />
         </button>

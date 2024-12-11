@@ -3,8 +3,6 @@ import Cookies from 'js-cookie'
 import Slider from 'react-slick'
 import {Link} from 'react-router-dom'
 import Loader from 'react-loader-spinner'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
 
 import Navbar from '../Navbar'
 import Footer from '../Footer'
@@ -175,8 +173,8 @@ class HomeRoute extends Component {
         </div>
         <div className="top-ratedBooks-container">
           <div className="heading-and-button-div">
-            <h5 className="desktop-head">Top Rated Books</h5>
-            <Link to="/shelf">
+            <h3 className="desktop-head">Top Rated Books</h3>
+            <Link to="/shelf" className="fnd-link">
               <button className="desktop-button" type="button">
                 Find Books
               </button>
